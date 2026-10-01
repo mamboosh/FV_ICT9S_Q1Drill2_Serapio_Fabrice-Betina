@@ -1,1 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Drill 2</title>
 
+    <style>
+        body{
+            background: linear-gradient(rgba(196, 0, 0, 0.429), rgba(0, 0, 0, 0.6)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiafdFp5ZJYEswb0uI4xmT-xKD0UCx-fFZzkZb5lfnJsnTB_3qI2E4_Ws&s=10");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+            
+        input[type="text"], select, textarea, input[type="submit"] {
+    	width: 97%;
+    	padding: 15px;
+    	border: 1px solid #ccc;
+    	border-radius: 5px;
+    	text-align: center;
+    }
+
+    input[type="submit"]{
+        cursor:pointer;
+        width: 200px
+    }        
+
+        section{
+    	background-color: #fef0f0f7;
+    	padding: 20px;
+    	border-radius: 12px;
+    	width: 600px;
+    	margin: auto;
+    	box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h1,p{
+    	text-align: center;
+    }
+
+    h1{
+        font-size: 75px
+    }
+
+    input[type="placeholder"]{
+          text-align: center;
+    }
+
+    img{
+        height: 50px;
+        width: 50px;
+    }
+
+    #movie_name{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-weight: 500;
+        font-size: 23px;
+        
+    }
+
+    p{
+        font-size: 25px;
+        text-shadow:#ccc
+    }
+
+    #submit{
+        text-align: center;
+    }
+
+    </style>
+
+<!--text!-->
+
+</head>
+<body>
+ <header id="header">
+    <h1 style="background-color: rgba(235, 141, 1, 0.442)); color: white;"> Rate a Movie</h1>
+        <p style="color: white; text-shadow: #ccc;">Type the movie title in the chatbox, then provide your own personal rating and review.</p>
+</header>
+
+<br>
+    <section>
+    <form>
+        <img style="display: block; height: 150px; width: 150px; margin: 0 auto;" src="https://static.vecteezy.com/system/resources/thumbnails/023/608/676/small/movie-film-frame-png.png" alt="Logo">
+        <br>
+        <label id="movie_name";>----------------------- Your Top Movie ---------------------</label>
+    </form>
+    </section>
+    <br>
+    <!--Movie-->
+    <input type="text" id="movie" name="movie" placeholder="Type here...">
+    <br>
+    <br>
+        <label for="genre"; style="font-size: 25px; color: white;" >Genre</label>
+        <br>
+        <input type="checkbox" id="genre1" name="genre1">
+        <label for="genre1"; style="color: white;">Action</label> 
+        <br> 
+        <input type="checkbox" id="genre2" name="genre2">
+        <label for="genre2" style="color: white;">Comedy</label>
+        <br>
+        <input type="checkbox" id="genre3" name="genre3">
+        <label for="genre3" style="color: white;">Sci-Fi</label>
+        <br>
+        <input type="checkbox" id="genre4" name="genre4">
+        <label for="genre4" style="color: white;">Horror</label>
+        <br>
+        <input type="checkbox" id="genre5" name="genre5">
+        <label for="genre5" style="color: white;">Romance</label>
+        <br>
+        <input type="checkbox" id="genre6" name="genre6">
+        <label for="genre6" style="color: white;">Musical</label>
+        <br>
+        <input type="checkbox" id="genre7" name="genre7">
+        <label for="genre7" style="color: white;">Documentary</label>
+        <br>
+        
+<br>
+
+    <label for="rate"; style="font-size: 25px; color: white;">Rating</label>
+    <br>
+    <input type="radio" id="rate1" name="rate">
+        <label for="rate" style="color: white;">⭐</label>
+
+    <input type="radio" id="rate2" name="rate">
+        <label for="rate" style="color: white;">⭐⭐</label>
+
+    <input type="radio" id="rate2" name="rate">
+        <label for="rate" style="color: white;">⭐⭐⭐</label>
+
+    <input type="radio" id="rate2" name="rate">
+        <label for="rate" style="color: white;">⭐⭐⭐⭐</label>
+
+    <input type="radio" id="rate2" name="rate">
+        <label for="rate" style="color: white;">⭐⭐⭐⭐⭐</label>
+
+    <br>
+    <br>
+    <textarea id="review" name="review" placeholder="Write a review..." rows="4" cols="40"></textarea>
+
+    <br>
+    <br>
+    <Input type="submit" id="submit" name="submit" value="Submit Review">
+        
+    <br>
+    <br>
+    <dd>
+   <a href="https://www.imdb.com/" target="_blank" style="color: white;"> Click here for more movie details.   </a>
+    </dd>
+
+    <!--<label for=uwu></label>  for="" https://www.imdb.com/title/tt12042730/ <br><-->
+    <p>Reference</p>
+</body>
+</html>
